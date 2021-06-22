@@ -1,0 +1,5 @@
+u:bandit7
+p:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+==================================
+1. cat data.txt | grep "millionth"
+2. awk '/millionth/{print $2}' data.txt

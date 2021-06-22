@@ -1,0 +1,6 @@
+u:bandit4
+p:pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+==================================
+
+file inhere/-*
+cat inhere/-file07

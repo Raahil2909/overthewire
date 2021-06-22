@@ -1,0 +1,7 @@
+u:bandit6
+p:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+==================================
+find / -size 33c -user bandit7 -group bandit6
+cat /var/lib/dpkg/info/bandit7.password
+
+

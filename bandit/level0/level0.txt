@@ -1,0 +1,8 @@
+u:bandit0
+p:bandit0
+port:2220
+
+===============================
+cat readme
+
+

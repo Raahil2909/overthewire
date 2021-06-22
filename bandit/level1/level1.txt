@@ -1,0 +1,6 @@
+u:bandit1
+p:boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+port:2220
+
+==================================
+cat ./-

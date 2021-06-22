@@ -1,0 +1,5 @@
+u:bandit9
+p:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+==================================
+strings data.txt | grep -E "==+"
+

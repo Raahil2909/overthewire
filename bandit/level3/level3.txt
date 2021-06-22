@@ -1,0 +1,5 @@
+u:bandit3
+p:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+==================================
+cat inhere/.hidden
+
