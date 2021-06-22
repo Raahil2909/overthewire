@@ -1,0 +1,6 @@
+u:bandit16
+p:cluFn7wTiGryunymYOu4RcffSxQluehd
+==================================
+nmap -A -T4 localhost -p 31000-32000
+ncat --ssl localhost 31790
+

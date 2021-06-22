@@ -1,0 +1,4 @@
+u:bandit15
+p:BfMYroe26WYalil77FoDi9qh59eK5xNr
+==================================
+ncat --ssl localhost 30001

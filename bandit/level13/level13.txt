@@ -1,0 +1,5 @@
+u:bandit13
+p:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+==================================
+ssh -i sshkey.private bandit14@localhost
+

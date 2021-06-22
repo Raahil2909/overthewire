@@ -1,0 +1,10 @@
+u:bandit12
+p:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+==================================
+1. use file to check file type
+2. mv to rename files to .bz2, .gz, .tar
+3. gzip -d ,
+4. bzip2 -d ,
+5. tar -xf to decompress
+6. xxd -r to reverse the hexdump
+

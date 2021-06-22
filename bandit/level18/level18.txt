@@ -1,0 +1,5 @@
+u:bandit18
+p:kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+==================================
+use -T to login as otherwise bashrc will log u out. u will get sh instead of bash
+

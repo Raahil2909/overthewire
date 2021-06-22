@@ -1,0 +1,4 @@
+u:bandit17
+p:xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+==================================
+diff passwords.old passwords.new

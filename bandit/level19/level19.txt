@@ -1,0 +1,5 @@
+u:bandit19
+p:IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+==================================
+./bandit20-do cat /etc/bandit_pass/bandit20
+
