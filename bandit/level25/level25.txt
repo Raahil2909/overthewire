@@ -1,0 +1,8 @@
+u:bandit25
+p:uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+==================================
+rsa private key is given hence simply
+use ssh -i key bandit26@bandit.labs.overthewire.org -p 2220
+make the screen small to get more command to buffer and then use v to open the edditor
+from there open password using :r /etc/bandit_pass/bandit26
+

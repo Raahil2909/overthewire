@@ -1,0 +1,5 @@
+u:bandit27
+p:3ba3118a22e93127a4ed485be72ef5ea
+==================================
+git clone ssh://bandit27-git@localhost/home/bandit27-git/repo in /tmp/something
+cat README

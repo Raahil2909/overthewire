@@ -1,0 +1,6 @@
+u:bandit26
+p:5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6z
+==================================
+on getting in vi edditor use :set shell=/bin/bash to get normal shell
+from there use setuid binary to get password for next level
+

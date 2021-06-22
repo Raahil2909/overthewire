@@ -1,5 +1,7 @@
 u:bandit20
 p:GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 ==================================
-
-
+open other shell and start nc at some port
+nc -lvp 8888
+join usnig ./suconnect 8888
+and send password from nc session

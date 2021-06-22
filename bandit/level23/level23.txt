@@ -1,0 +1,7 @@
+u:bandit23
+p:jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+==================================
+make .sh script in /var/spool/bandit24 that will run and get deleted 
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/lev23/get24.txt
+
