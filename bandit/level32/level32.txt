@@ -1,0 +1,8 @@
+u:bandit32
+p:56a9bf19c63d650ce78e6ec0354ee45e
+==================================
+wrote bash script
+#!/bin/bash
+cat /etc/bandit_pass/bandit33
+run uppershell from that /tmp/something folder
+use $0 to get out of uppershell

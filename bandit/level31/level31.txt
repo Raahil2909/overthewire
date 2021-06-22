@@ -1,0 +1,4 @@
+u:bandit21
+p:47e603bb428404d265f59c42920d81e5
+==================================
+see git ignore as it is avoiding .txt files

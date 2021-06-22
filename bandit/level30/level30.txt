@@ -1,3 +1,6 @@
 u:bandit30
 p:5b90576bedb2cc04c86a9e924ce42faf
 ==================================
+cat packed-refs
+git show refs/tags/secret
+
