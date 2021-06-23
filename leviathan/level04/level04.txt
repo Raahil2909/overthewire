@@ -1,0 +1,4 @@
+u:leviathan4
+p:vuH0coox6m
+============
+got binary values. convert to int then convert to chr

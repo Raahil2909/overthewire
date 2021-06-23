@@ -1,0 +1,5 @@
+u:leviathan0
+p:leviathan0
+============
+cd .backup
+cat bookmarks.html | grep -i "password"

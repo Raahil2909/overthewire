@@ -1,0 +1,9 @@
+u:leviathan6
+p:UgaoFee4li
+============
+use for loops to brute force the password
+for i in {0..9}; do for j in {0..9}; do for k in {0..9}; do for l in {0..9}; do ./leviathon6 $i$j$k$l  ;done  ;done; done; done
+
+or use for loop 
+for i in {0000..9999}; do ./leviathan $i ; done
+

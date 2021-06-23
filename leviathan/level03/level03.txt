@@ -1,0 +1,7 @@
+u:leviathan3
+p:Ahdiemoo1j
+============
+use ltrace to find out the password needed is snlprintf
+this gives shell as leviathan4
+simply cat the password
+

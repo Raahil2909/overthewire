@@ -1,0 +1,7 @@
+u:leviathan1
+p:rioGegei8m
+============
+use ltrace and see that password needed is sex
+after entering the password we get /bin/sh as user leviathan2
+simply cat /etc/leviathan_pass/leviathan2
+
