@@ -12,6 +12,6 @@ response = requests.get(url, auth = (username, password))
 content = response.text
 # print(content)
 
-pwd = re.findall('<!--The password for natas1 is (.*) -->', content)[0]
+pwd = re.findall('<!--The password for natas2 is (.*) -->', content)[0]
 print(pwd)
 
