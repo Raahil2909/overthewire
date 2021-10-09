@@ -8,11 +8,12 @@ password = 'Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ'
 
 url = 'http://%s.natas.labs.overthewire.org' % username
 
-# response = requests.get(url+'/robots.txt', auth = (username, password))
-response = requests.get(url+'/s3cr3t/users.txt', auth = (username, password))
+# coming from natas5
+hdr = {'Referer':'http://natas5.natas.labs.overthewire.org/'}
+response = requests.get(url+'/index.php/', auth = (username, password), headers=hdr )
 content = response.text
 # print(content)
 
-pwd = re.findall('natas5:(.*)', content)[0]
+pwd = re.findall('natas5 is (.*)', content)[0]
 print(pwd)
 
