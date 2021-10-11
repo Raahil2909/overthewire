@@ -7,14 +7,16 @@ copy_py(){
     pwd=`python3 $n.py`
     echo "[+] adding the password $pwd to next level's python script"
     # this changes the username in new file
-    sed -i -e "s/natas$((n+1))/natas$((n+2))/g" -e "s/password[[:space:]]=[[:space:]]'.*'/password = '$pwd'/g"  -e "s/natas$((n))/natas$((n+1))/g"  $((n+1)).py
+    sed -i -e "s/natas$((n+1))/natas$((n+2))/g" -e "s/password[[:space:]]=[[:space:]]'.*'/password = '$pwd'/g" -e "s/natas$((n))/natas$((n+1))/g"  $((n+1)).py
     # this changes the password in the new file with the output of previous .py file
 }
 copy_go(){
     echo "[+] copying go .."
     cp $n.go $((n+1)).go
     pwd=`go run $n.go`
-    echo "[+] password = $pwd"
+    echo "[+] adding the password $pwd to next level's golang script"
+
+    sed -i -e "s/natas$((n+1))/natas$((n+2))/g" -e "s/password[[:space:]]=[[:space:]]\".*\"/password = \"$pwd\"/g" -e "s/natas$((n))/natas$((n+1))/g" $((n+1)).go
 }
 
 printf "Enter n to copy script to solve that solves level n and paste it into script to solve level n+1\n"
