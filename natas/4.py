@@ -16,4 +16,3 @@ content = response.text
 
 pwd = re.findall('natas5 is (.*)', content)[0]
 print(pwd)
-

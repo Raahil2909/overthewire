@@ -1,12 +1,41 @@
 #!/bin/bash
 
+copy_py(){
+    echo "[+] copying python .."
+    cp $n.py $((n+1)).py
+
+    pwd=`python3 $n.py`
+    echo "[+] adding the password $pwd to next level's python script"
+    # this changes the username in new file
+    sed -i -e "s/natas$((n+1))/natas$((n+2))/g" -e "s/password[[:space:]]=[[:space:]]'.*'/password = '$pwd'/g"  -e "s/natas$((n))/natas$((n+1))/g"  $((n+1)).py
+    # this changes the password in the new file with the output of previous .py file
+}
+copy_go(){
+    echo "[+] copying go .."
+    cp $n.go $((n+1)).go
+    pwd=`go run $n.go`
+    echo "[+] password = $pwd"
+}
+
+printf "Enter n to copy script to solve that solves level n and paste it into script to solve level n+1\n"
 printf "> n = "
 read n
-cp $n.py $((n+1)).py
 
-pwd=`python3 $n.py`
-echo "[+] adding the password $pwd to next level's python script"
-# this changes the username in new file
-sed -i -e "s/natas$((n+1))/natas$((n+2))/g" -e "s/password[[:space:]]=[[:space:]]'.*'/password = '$pwd'/g"  -e "s/natas$((n))/natas$((n+1))/g"  $((n+1)).py
-# this changes the password in the new file with the output of previous .py file
-# sed -r "s/password\s=\s'.*'/password = '$pwd'/g" <$((n+1)).py >> $((n+1)).py
+printf "Copy \n1 .py\n2 .go\n3. Both\n"
+read x
+
+
+if [ $x == 1 ]
+then
+    copy_py
+elif [ $x == 2 ] 
+then
+    copy_go
+elif [ $x == 3 ]
+then
+    copy_py
+    copy_go
+else 
+    echo "Andha hai kya"
+fi
+
