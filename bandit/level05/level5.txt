@@ -7,7 +7,7 @@ cat inhere/maybehere07/.file2
 
 OR
 
-file `inhere/ -type f -size 1033c ! -executable`
+file `find inhere/ -type f -size 1033c ! -executable`
 cat inhere/maybehere07/.file2
 
 
