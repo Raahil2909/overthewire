@@ -5,3 +5,9 @@ find / -size 33c -user bandit7 -group bandit6
 cat /var/lib/dpkg/info/bandit7.password
 
 
+OR
+
+cat `find / -size 33c -user bandit7 -group bandit6`
+
+=======================================
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
