@@ -4,3 +4,12 @@ p:koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 find inhere/ -type f -size 1033c ! -executable
 cat inhere/maybehere07/.file2
 
+
+OR
+
+file `find inhere/ -type f -size 1033c ! -executable`
+cat inhere/maybehere07/.file2
+
+
+==================================
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
